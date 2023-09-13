@@ -1,0 +1,25 @@
+# Ignorar la carpeta de dependencias node_modules/
+node_modules
+
+
+
+# Ignorar la carpeta de archivos compilados dist/
+dist/
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos específicos del entorno de desarrollo (puedes personalizar esta lista)
+.idea/
+.vscode/
+
+# Ignorar archivos de configuración local (puedes personalizar esta lista)
+.angular-cli.json
+.angular.json
+
+# Ignorar archivos específicos de pruebas
+e2e/protractor.conf.js
+src/test.ts
+
+# Ignorar archivos específicos de macOS
+.DS_Store
