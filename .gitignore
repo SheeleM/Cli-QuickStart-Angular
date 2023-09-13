@@ -1,25 +1,42 @@
-# Ignorar la carpeta de dependencias node_modules/
-node_modules
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
 
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
 
-# Ignorar la carpeta de archivos compilados dist/
-dist/
-
-# Ignorar archivos de registro
-*.log
-
-# Ignorar archivos específicos del entorno de desarrollo (puedes personalizar esta lista)
+# IDEs and editors
 .idea/
-.vscode/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# Ignorar archivos de configuración local (puedes personalizar esta lista)
-.angular-cli.json
-.angular.json
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
 
-# Ignorar archivos específicos de pruebas
-e2e/protractor.conf.js
-src/test.ts
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
 
-# Ignorar archivos específicos de macOS
+# System files
 .DS_Store
+Thumbs.db
