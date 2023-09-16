@@ -16,7 +16,13 @@
 
   <app-product-alerts [product]="product">
   </app-product-alerts>
+
+  <!--product alerts es el hijo-->
+  <app-product-alerts [product]="product" (notify)="onNotify()">
+  </app-product-alerts>
+
 </div>
+
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
